@@ -18,9 +18,10 @@ start:   stmt_list {return 0; }
 
 var_id: VARIABLE_ID
 
-stmt: unmatched {printf("%s", "Valid Input");}
-| matched {printf("%s", "Valid Input");}
-| function_declaration {printf("%s", "Valid Input");}
+stmt: unmatched {printf("%s", " Valid Input ");}
+| matched {printf("%s", " Valid Input ");}
+| function_declaration {printf("%s", " Valid Input ");}
+| error
 
 
 
@@ -187,6 +188,7 @@ declaration_stmt: type_id var_id SEMICOLON
 int lineno=0;
 yyerror(char *s) {
                    printf("%s",s);
+                   printf("%s", " at :")
                    printf("%d", lineno);
                    }
 int main() {
