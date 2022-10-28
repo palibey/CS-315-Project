@@ -1,0 +1,72 @@
+int x; #declaration statement in our language
+int y; #declaration statement in our language
+airPressure = 1010; #assignment statement operation in our language
+airQuality = 0.9; #declaration and assignment statement operation in our language
+
+if(x < y) { #if statement in our language
+# less than expression in our language
+           air_quality( abc ); #sensor function in our language
+           while( 100 > temp ) { #while loop statement in our language
+                  #greater than expression in our language
+                  airPressure = 20; # assignment to the air_pressure sensor
+           } 
+          send( 192.168.1.1 ) 32; #send function in our language
+}
+
+receive( 192.168.1.1 ) slm ; # receive function in our language
+
+do{ #do while loop statement in our language
+           air_pressure( a ); # air_pressure function in our language
+           temperature( b ); #temperature function in our language
+           humidity( c ); #humidity function in our language
+           air_quality( d ); #air_quality function in our language
+           light( e ); #light function in our language
+           sound_level( f ); #sound_level function in our language
+           proximity( g ); #proximity function in our language
+           gps( h ); #gps function in our language
+           radio( i ); #radio function in our language
+
+} while ( airPressure != airQuality ); #not equal expression in our language
+
+temp = 100; # assignment to the temperature sensor
+s_1(true); #switch state is true
+
+for (int a; a < 340 ; a = a+1;) { 
+temp = 50; 
+receive( 192.168.1.1 ) a;
+}
+
+int num1;  #declaration and assignment statement operation in our language
+int num2; #declaration and assignment statement operation in our language
+int multi; #declaration statement operation in our language
+int minus; #declaration statement operation in our language
+int plus; #declaration statement operation in our language
+int div; #declaration statement operation in our language
+
+multi = num1 * num2; # multiplication expression and assignment statement
+minus = num1 - num2;# subtraction expression and assignment statement
+plus = num1 + num2;# addition expression and assignment statement
+div = num1 / num2;# division expression and assignment statement
+
+
+function public int testFunction (int a;) { # function declaration in our language 
+# takes parameter
+return a * 5; # returns a value
+}
+
+humidity(computer);
+
+connection(198.162.1.1, true);
+
+send(192.168.1.1) abc;
+
+receive(192.168.1.1)  xyz;
+
+int functionVal; #declaration and assignment statement operation in our language
+
+functionVal = testFunction( functionVal ); # assignment and declaration statement
+# the value returned from the function is assigned to the variable
+
+
+
+
